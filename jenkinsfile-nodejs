@@ -10,7 +10,7 @@ agent any
                     sh "docker build . -t kammana/nodeapp:${DOCKER_TAG} "
                 }
            }
-           // stage(){}
+           
     }
 }
 def getDockerTag(){
